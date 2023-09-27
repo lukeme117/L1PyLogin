@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "l1pylogin"
+version = "0.1.0"
+description = ""
+authors = ["Luke Chang <lukeme1107@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyQt5 = "^5.15.9"
+pywin32 = "306"
+elevate = "^0.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
